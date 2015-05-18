@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Curtain Demo </title>
+		<script src="ext/jquery-1.11.3.min.js"> </script>
+		<script src="js/main.js"> </script>
+		<link rel="stylesheet" href="css/styles.css">
+ 	</head>
+ 	
+	<body>
+		<div id="sidePanel">
+			<select id="brandChooser">
+				<option value="bombayDyeing"> Bombay Dyeing </option>
+				<option value="raiff"> Raiff </option>
+				<option value="blossoms"> Blossoms </option>
+				<option value="floyd"> Floyd </option>
+			</select>
+			
+			<div id="colorChooser">
+				<div class="pallette yellow active"></div>
+				<div class="pallette red"></div>
+				<div class="pallette blue"></div>
+				<div class="pallette green"></div>
+			</div>
+		</div>
+		<div id="mainPanel">
+			<iframe id="displayFrame"> </iframe>
+			<div id="bottomPanel">
+				<div id="patternChooser">
+				</div>	
+			</div>
+		</div>
+	</body>
+	
+</html>
